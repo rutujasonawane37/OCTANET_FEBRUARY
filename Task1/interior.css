@@ -13,7 +13,7 @@ nav{
     top:0;
     z-index: 99;
     width:100%;
-    height:100px;
+    height:65px;
     background: white;
     display: flex;
     justify-content: space-between;
@@ -21,10 +21,9 @@ nav{
     padding: 0 70px;
 
 }
-
-
 .logo{
     font-size: 2em;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 .logo span{
@@ -48,10 +47,10 @@ nav{
 
 }
 .icons i{
-    margin: 0 10px;
-    font-size: 20px;
+    margin: 0 5px;
+    font-size: 15px;
     color: black;
-    padding: 15px;
+    padding: 10px;
     border-radius:8px;
     border: 1px solid grey;
     transition:0.4s;
@@ -65,6 +64,7 @@ nav{
 #sofa{
     position: absolute;
     width: 100%;
+    filter: brightness(90%);
     height: 100vh;
 }
 .htext{
@@ -82,7 +82,6 @@ nav{
 }
 .htext h1 span{
     color: #2ecc71;
-    text-shadow: 2px 3px 5px white;
 }
 .subHeading{
     font-size: .8rem;
@@ -92,7 +91,7 @@ nav{
     font-weight: 700;
     font-size: .9rem;
     border: 1px solid #2ecc71;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: .7rem 3rem;
     background-color: #2ecc71;
     color: #fff;
